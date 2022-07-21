@@ -1,3 +1,4 @@
+/* First Section */
 .head {
     color: white;
     text-decoration: none;
@@ -45,7 +46,7 @@ ul {
     color: #e5e7eb;
 }
 
-.sign {
+button {
     border: none;
     border-radius: 8px;
     background-color: #3882F6;
@@ -62,4 +63,136 @@ ul {
 
 #img {
     background-color: gray;
+}
+
+
+/* Second Section */
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#random {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    /* margin: 300px; */
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
+    /* padding: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px; */
+}
+.box {
+    display: flex;
+    background-color: lightgreen;
+    border: 16px blue;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 0px;
+    /* justify-content: space-between; */
+}
+
+.texts {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 80px;
+    /* position:relative; left: 9px; */
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 120px;
+}
+
+
+/* Third Section */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 750px;
+    padding-bottom: 0px;
+}
+
+#quoted {
+    display: flex;
+    
+}
+
+.quoted {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+/* Fourth Section */
+.white-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    height: 200px;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.second-button {
+    border: 2px solid white;
+    border-color: white;
+    background-color: #3882F6;
+}
+
+#call {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+/* Fifth Section */
+#footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
 }
