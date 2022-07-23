@@ -99,26 +99,25 @@ button {
     color: #1f2937;
 }
 
-.boxes {
+#container {
     display: flex;
     gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
     display: flex;
     background-color: white;
-    border: 2px solid blue;
+    border: 4px solid #3882F6;
     border-radius: 8px;
     padding: 70px;
     margin: 15px;
     margin-bottom: -5px;
-
-}
-
-.texts {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 80px;
 }
 
 .text {
